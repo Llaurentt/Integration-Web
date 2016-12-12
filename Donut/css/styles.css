@@ -1,0 +1,314 @@
+/* ===============================
+   Colour Palette:
+   ---------------
+   Light Cream:	#f2f3ee
+   Orange:			#d17f38
+   Yellow:			#e8c04f
+   Brown:			#4b2707
+   =============================== */
+
+/* General */
+
+body {
+   -webkit-font-smoothing: antialiased;
+   text-rendering: optimizelegibility;
+   font-family: : "Open Sans";
+   color: #4b2707;
+}
+
+.container {
+  width: 974px;
+  margin: auto;
+}
+
+
+/* Typography */
+
+h1, h2 {
+  font-family: "Love Ya Like a Sister";
+  font-size: 2.5em;
+  color: #d17f38;
+}
+
+h1 {
+  text-align: center;
+  height: 70px;
+  background-image: url("../images/header-divider.png");
+  background-repeat: no-repeat;
+  background-position: 50% 99%;
+  margin-bottom: 10px;
+}
+
+h1 em {
+  color: #4b2707;
+}
+
+h2 {
+  font-size: 2em;
+  margin: 0;
+  margin-bottom: 35px;
+}
+
+h3 {
+  margin-top: 0;
+  margin-bottom: 0.2em;
+  font-size: 1em;
+}
+
+p.lead {
+  margin-top: 0;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 2em;
+}
+
+p {
+  margin: auto;
+}
+
+a:link, a:visited {
+  color: #d17f38;
+}
+
+a:hover {
+  color: #e8c04f;
+}
+
+hr {
+  /*color: white;*/
+  border: 0;
+  width: 333px;
+  height: 33px;
+  background-repeat: no-repeat;
+  background-image: url("../images/divider.png");
+  background-position: 50% 50%;
+}
+
+
+/* Header */
+
+header nav {
+  width: 900px;
+  margin: auto;
+}
+
+header nav ul {
+  height: 150px;
+  text-align: center;
+}
+
+header nav ul li {
+  height: 5px;
+  /*width: 259px;
+  height: 141px;*/
+  display: inline-block;
+  margin: 0 20px;
+}
+
+header nav ul li a {
+  color: #e8c04f;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding-top: 25px;
+  line-height: 141px;
+}
+
+header nav ul li a:hover {
+  color: #4b2707;
+  background-repeat: no-repeat;
+  background-image: url("../images/tiny-donut.png");
+  background-position: 50% 0%;
+}
+
+header nav ul li#logo a {
+  font-size: 0;
+  display: block;
+  margin-top: 0;
+  padding-top: 0;
+  width: 259px;
+  height: 141px;
+  background-image: url("../images/logo.png");
+}
+
+header nav ul li#logo a:hover {
+  font-size: 0;
+  width: 259px;
+  height: 141px;
+  background-image: url("../images/logo-hover.png");
+}
+
+
+/* Hero */
+
+#hero {
+  height: 550px;
+  background-color: #e8c04f;
+  /*background-repeat: repeat;
+  background-image: url("../images/bg-tile-yellow.gif");*/
+  /*background-repeat: no-repeat;
+  background-image: url("../images/fresh-whole-ingredients.png");
+  background-position: right 150px top -25px;*/
+  /*overflow: visible;
+  opacity: 0.9;
+  z-index: 1;*/
+  border: 1px solid #e8c04f;
+}
+
+#hero .container {
+  height: 471px;
+  margin-top: 41px;
+  /*opacity: 0.9;*/
+  /*z-index: 2;*/
+  /*background-repeat: no-repeat;
+  background-image: url("../images/fresh-whole-ingredients.png");
+  background-position: right 0px top -25px;*/
+}
+
+#hero .large-ribbon {
+  color:transparent;
+  width: 150px;
+  height: 190px;
+  background-image: url("../images/fresh-whole-ingredients.png");
+  /*z-index: 1;*/
+  position: absolute;
+  top: 160px;
+  right: 160px;
+
+}
+
+
+/* The Whole Story */
+
+#story-excerpt {
+  width: 575px;
+  padding-right: 115px;
+  margin-bottom: 20px;
+  background-repeat: no-repeat;
+  background-image: url("../images/award.png");
+  background-position: 100% 50%;
+  font-size: 1.1em;
+  display: inline-block;;
+}
+
+#best-donut {
+  margin-left: 15px;
+  margin-top: 40px;
+  width: 260px;
+  font-size: 1em;
+  display: inline-block;
+  vertical-align: top;
+}
+
+
+/* News & Events */
+
+#articles {
+  /*margin-top: 100px;*/
+
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 440px;
+  display: inline-block;
+}
+
+#feature-image {
+  margin-top: 20px;
+  float: right;
+  /*vertical-align: middle;*/
+}
+
+#news-events article {
+  margin-top: 0px;
+  width: 440px;;
+}
+
+#news-events article.news {
+  padding-left: 65px;
+  margin-top: 20px;
+  background-repeat: no-repeat;
+  background-image: url("../images/icon-news.png");
+  background-position: 0% 0%;
+  width: 440px;
+}
+
+#news-events article.event {
+  padding-left: 65px;
+  margin-top: 18px;
+  margin-bottom: 20px;
+  background-repeat: no-repeat;
+  background-image: url("../images/icon-calendar.png");
+  background-position: 0% 0%;
+  width: 440px;
+}
+
+#news-events header time {
+  margin-top: 0px;
+  margin-bottom: 0.3em;
+  width: 360px;
+  font-size: 0.8em;
+  color: #d17f38;
+}
+
+#news-events section.excerpt {
+  /*margin-left: 65px;*/
+  width: 360px;
+  margin-top: 10px;
+}
+
+#news-events footer {
+  /*margin-left: 65px;*/
+  width: 360px;
+  margin-top: 10px;
+}
+
+
+/* Footer */
+
+footer.main {
+  margin-top: 55px;
+  height: 160px;
+  /*background-color: #4b2707;*/
+  background-repeat: repeat;
+  background-image: url("../images/bg-tile-brown.gif");
+}
+
+footer.main a:hover {
+
+}
+
+#uncopyright, #credits {
+  color: #f2f3ee;
+  width: 400px;
+  height: 38px;
+  display: inline-block;
+}
+
+#uncopyright {
+  margin-top: 60px;
+  margin-right: 230px;
+  padding-left: 50px;
+  background-repeat: no-repeat;
+  background-image: url("../images/icon-recycle.png");
+  background-position: 0% 0%;
+}
+
+#credits {
+  padding-left: 50px;
+  width: 220px;
+  background-repeat: no-repeat;
+  background-image: url("../images/icon-apple.png");
+  background-position: 0% 0%;
+}
+
+
+/* Force Elements to Self Clear its Children: http://css-tricks.com/snippets/css/clear-fix/ */
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: "";
+	clear: both;
+	height: 0;
+	}
+* html .group             { zoom: 1; } /* IE6 */
+*:first-child+html .group { zoom: 1; } /* IE7 */
